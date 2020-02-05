@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">Nurmaganbet's To Do List App</h2>
+        <input type="text" id="myInput" placeholder="Plan for today...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+        <li>Meet a friends</li>
+        <li>Go to cinema</li>
+        <li>Play with sister</li>
+        <li>Go to Magnum</li>
+        <li class="checked">Make a presentation</li>
+        <li>Watching movie at evening</li>
+    </ul>
+
+    <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+    
+    <script src="static.js"></script>
+</body>
+
+</html>
